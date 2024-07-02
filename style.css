@@ -1,0 +1,41 @@
+body{
+        margin:0;
+        background-image: url("images/background/다운로드.jpg");
+        background-repeat: no-repeat;
+        background-size:  cover;
+}
+
+.container {
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;;
+}
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid blueviolet;
+    position: relative;
+}
+.task-area {
+    border: 1px solid blueviolet;
+}
+
+
+.task-tabs div{
+    padding: 1em;
+  
+}
+
+#under-line{
+    height: 4px;
+    background-color: skyblue;
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
